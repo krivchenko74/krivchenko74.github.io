@@ -1,0 +1,12 @@
+* {
+  --background-color: #f6f6f6;
+  --white: #fff;
+  --black: #292929;
+  --grey: #8c8c8c;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--black);
+  list-style: none;
+  text-decoration: none;
+}
