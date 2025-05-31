@@ -9,4 +9,10 @@
   color: var(--black);
   list-style: none;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.05em;
+}
+body {
+  max-width: 1280px;
+  margin: 0 auto;
 }

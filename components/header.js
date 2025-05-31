@@ -5,6 +5,7 @@ if (!body) console.error("No body element found!");
 const links = [
   { href: "./index.html", text: "Главная" },
   { href: "./blog.html", text: "Блог" },
+  { href: "./cases.html", text: "Кейсы" },
 ];
 
 const header = document.createElement("header");
@@ -33,3 +34,7 @@ header.appendChild(img);
 header.appendChild(nav);
 
 body.insertBefore(header, body.firstChild);
+
+setTimeout(() => {
+  header.style.opacity = "1";
+}, 100);
