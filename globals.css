@@ -15,4 +15,33 @@
 body {
   max-width: 1280px;
   margin: 0 auto;
+  background-color: var(--background-color);
+}
+section {
+  padding: 10px 20px 10px 20px;
+  border-bottom: 2px solid var(--black);
+  animation: show 0.4s;
+}
+.teaser {
+  margin: 0 0 10px 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--grey);
+  animation: show 0.6s;
+}
+b {
+  font-weight: inherit;
+  color: var(--grey);
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
