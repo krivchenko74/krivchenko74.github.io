@@ -40,9 +40,21 @@
 .skill {
   font-size: 32px;
   font-weight: 500;
-  margin-bottom: 9px;
+  animation: show 1s;
+}
+.text {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.stack {
+  font-size: 20px;
+  margin-top: 8px;
+  color: var(--grey);
+  animation: show 2s;
 }
 .line_container {
+  margin-top: 8px;
   width: 100%;
   max-width: 300px;
   height: 8px;

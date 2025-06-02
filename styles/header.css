@@ -1,9 +1,11 @@
 .header {
   position: fixed;
-  width: 100%;
-  background-color: var(--background);
+  background-color: var(--background-color);
   opacity: 0;
   display: flex;
+  top: 0;
+  width: 100%;
+  max-width: 1280px;
   column-gap: 20px;
   flex-wrap: wrap;
   row-gap: 10px;

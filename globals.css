@@ -12,6 +12,9 @@
   font-family: "Inter", sans-serif;
   letter-spacing: -0.05em;
 }
+main {
+  padding-top: 50px;
+}
 body {
   max-width: 1280px;
   margin: 0 auto;
