@@ -37,8 +37,35 @@
 .link:active {
   scale: 0.95;
 }
+.skill {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 9px;
+}
+.line_container {
+  width: 100%;
+  max-width: 300px;
+  height: 8px;
+  border-radius: 1000px;
+  border: 1px solid var(--grey);
+  margin-bottom: 30px;
+}
+.line {
+  height: 100%;
+  border-radius: 1000px;
+  max-width: var(--width);
+  animation: growWidth 1s ease;
+}
+@keyframes growWidth {
+  from {
+    width: 0px;
+  }
+  to {
+    width: var(--width);
+  }
+}
 @media (max-width: 700px) {
-  .teaser:first-child {
+  .teaser {
     margin-top: 20px;
   }
   .hi {

@@ -1,4 +1,7 @@
 .header {
+  position: fixed;
+  width: 100%;
+  background-color: var(--background);
   opacity: 0;
   display: flex;
   column-gap: 20px;
