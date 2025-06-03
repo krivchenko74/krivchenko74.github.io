@@ -88,3 +88,17 @@
     font-size: 24px;
   }
 }
+.blog-link {
+  align-self: normal;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 2px solid var(--black);
+  background-color: var(--background-color);
+  color: var(--black);
+  margin-bottom: 20px;
+}
+.blog-link:hover {
+  background-color: var(--black);
+  color: var(--white);
+}

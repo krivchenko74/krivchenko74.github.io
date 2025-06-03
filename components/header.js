@@ -34,7 +34,3 @@ header.appendChild(img);
 header.appendChild(nav);
 
 body.insertBefore(header, body.firstChild);
-
-setTimeout(() => {
-  header.style.opacity = "1";
-}, 100);
