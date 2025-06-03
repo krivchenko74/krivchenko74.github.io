@@ -1,0 +1,23 @@
+.case {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  max-width: 500px;
+  margin-top: 20px;
+}
+.case-link {
+  padding-right: 30px;
+}
+.case p {
+  margin-top: 20px;
+  line-height: 150%;
+}
+.case-link a:hover {
+  text-decoration: underline;
+}
+.case-link .line {
+  margin-top: 10px;
+  width: 120%;
+  height: 2px;
+  background-color: var(--grey);
+}

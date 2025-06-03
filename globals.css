@@ -12,6 +12,40 @@
   font-family: "Inter", sans-serif;
   letter-spacing: -0.05em;
 }
+
+/* header */
+.header {
+  position: fixed;
+  background-color: var(--background-color);
+  opacity: 1;
+  display: flex;
+  top: 0;
+  width: 100%;
+  max-width: 1280px;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+  border-bottom: 2px solid var(--black);
+  z-index: 9999;
+}
+
+.nav {
+  font-weight: 500;
+}
+.nav-list {
+  display: flex;
+  column-gap: 20px;
+}
+.nav-list li a {
+  transition: 0.2s;
+}
+.nav-list li a:hover {
+  color: #8c8c8c;
+}
+/* end of header */
 main {
   padding-top: 50px;
 }
@@ -122,4 +156,9 @@ footer p {
 h1 {
   margin: 20px 0px 5px 0px;
   font-size: 32px;
+}
+@media (max-width: 525px) {
+  h1 {
+    margin-top: 50px;
+  }
 }
