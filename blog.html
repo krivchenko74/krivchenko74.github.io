@@ -1,72 +1,22 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Кривченко Вячеслав: сайт-порфолио</title>
+  <title>Блог</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./globals.css">
+  <link rel="stylesheet" href="./blog.css">
   <link rel="stylesheet" href="./styles/header.css">
-  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <script src="./components/header.js"></script>
   <main>
     <section>
-      <p class="teaser">[приветствие]</p>
-      <p class="hi">Привет!</p>
-      <p class="basics">Я <b>начинающий</b> фуллстэк-разработчик, давайте знакомиться!</p>
-      <div class="socials">
-        <a href="https://github.com/krivchenko74" class="link">
-          <img src="./img/github.svg" alt="github logo">
-          <p>GitHub</p>
-        </a>
-        <a href="https://gitverse.ru/Krivchenko_Vyacheslav" class="link">
-          <img src="./img/gitverse.svg" alt="gitverse logo">
-          <p>GitVerse</p>
-        </a>
-      </div>
-    </section>
-    <section id="skills">
-      <p class="teaser">[навыки]</p>
-
-      <div class="text">
-        <p class="skill">Верстка</p>
-        <p class="stack">HTML, CSS, Prettier</p>
-      </div>
-     <div class="line_container">
-        <div style="--width: 140px;background-color: #E18F1C;" class="line"></div>
-      </div>
-
-      <div class="text">
-        <p class="skill">Дизайн</p>
-        <p class="stack">Figma, Spline</p>
-      </div>
-      <div class="line_container">
-        <div style="--width: 160px;background-color: #E18F1C;" class="line"></div>
-      </div>
-
-      <div class="text">
-        <p class="skill">Фронтенд</p>
-        <p class="stack">JS, React</p>
-      </div>
-      <div class="line_container">
-        <div style="--width: 220px;background-color: #1D987C;" class="line"></div>
-      </div>
-
-      <div class="text">
-        <p class="skill">Бэкенд</p>
-        <p class="stack">Node.js, Express.js, Next.js</p>
-      </div>
-      <div class="line_container">
-        <div style="--width: 130px;background-color: #E18F1C;" class="line"></div>
-      </div>
-    </section>
-    <section>
-      <p class="teaser">[блог]</p>
-
+      <h1>Блог</h2>
+      <p>Здесь размещены превью и ссылки на посты из моего сообщества</p>
       <div class="cards-wrapper">
         <div class="card">
           <div class="card-image">
@@ -104,8 +54,31 @@
             <a class="post-link" href="">Читать</a>
           </div>
         </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./img/internet.jpg" alt="">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">
+              Как работает интернет?
+            </h3>
+            <p class="card-description">О принципах работы: от малых сетей до больших</p>
+            <a class="post-link" href="">Читать</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="./img/steps.jpg" alt="">
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">
+              Этапы разработки веб-сайта
+            </h3>
+            <p class="card-description">Вкратце рассказали, как происходит процесс разработки веб-сайтов. Если вскоре Вы собираетесь впервые заказать сайт, рекомендуем к просмотре, чтобы знать, чего ожидать</p>
+            <a class="post-link" href="">Читать</a>
+          </div>
+        </div>
       </div>
-      <a href="" class="post-link blog-link">Перейти в блог</a>
     </section>
   </main>
   <script src="./components/footer.js"></script>
