@@ -6,6 +6,7 @@ const links = [
   { href: "./index.html", text: "Главная" },
   { href: "./blog.html", text: "Блог" },
   { href: "./cases.html", text: "Кейсы" },
+  { href: "./design.html", text: "Макет" },
 ];
 
 const header = document.createElement("header");
